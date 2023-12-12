@@ -1,0 +1,28 @@
+header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid white;
+  /* position: relative; */
+
+}
+
+.Cart {
+  width: 20px;
+  height: 20px;
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    opacity: 50%;
+    padding: 0 300px;
+    border: none;
+  }
+}

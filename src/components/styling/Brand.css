@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.HomeLink {
+  text-decoration: none;
+  z-index: 1;
+  width: 50%;
+}
+
+.BrandContainer {
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.BrandLogo {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .HomeLink {
+    width: fit-content;
+    position: relative;
+  }
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+.LinkContainer {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .LinkContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: auto;
+  }
+
+  .NavLinkHorizontal {
+    font-family: 'Afacad', sans-serif;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+}
