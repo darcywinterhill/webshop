@@ -5,7 +5,7 @@ import wideMix from "../images/backgrounds/product-mix-wide.jpg";
 import focus from "../images/backgrounds/focus.jpg";
 
 import PageContainer from "../components/PageContainer";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import PopularSection from "../components/PopularSection";
 
 const Main = () => {
@@ -45,6 +45,12 @@ const Main = () => {
       </div>
       </section>
       <PopularSection />
+      <div className="FocusText">
+        <p>
+        Indulge in our organic skincare crafted with care. 
+        From seed to serum, our products embody nature's purity for radiant, healthy skin.
+        </p>
+      </div>
     </PageContainer>
   )
 }

@@ -4,10 +4,11 @@
   width: 100%;
   height: auto;
   font-family: 'Ibarra Real Nova', serif;
+  padding: 50px 0;
 }
 
 .SectionTitle {
-  padding-top: 50px;
+  margin-bottom: 25px;
 }
 
 .SectionTitle h3 {
@@ -19,4 +20,9 @@
   font-size: 25px;
   font-style: italic;
   margin: 0;
+}
+
+.PopProductList {
+  display: flex;
+  flex-direction: column;
 }

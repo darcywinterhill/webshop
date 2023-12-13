@@ -12,7 +12,7 @@ const Header = () => {
       <HamburgerMenu />
       <Brand />
       <NavBar />
-      <img className="Cart" src={cart} />
+      <img className="Cart" src={cart} alt="cart icon" />
     </header>
   )
 }

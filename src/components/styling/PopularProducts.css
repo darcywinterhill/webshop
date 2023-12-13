@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+.PopProductWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.PopImage {
+  width: 250px;
+  height: 250px;
+}
+
+.PopProductWrapper h4 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.PopProductWrapper p {
+  font-family: 'Afacad', sans-serif;
+  margin: 15px;
+}
+
+.Line {
+  width: 100px;
+  border-bottom: 1px solid black;
+}
