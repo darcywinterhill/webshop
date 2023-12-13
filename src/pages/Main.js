@@ -3,15 +3,15 @@ import "./styling/Main.css";
 import smallMix from "../images/backgrounds/product-mix-small.jpg";
 import wideMix from "../images/backgrounds/product-mix-wide.jpg";
 import focus from "../images/backgrounds/focus.jpg";
+import lavendel from "../images/backgrounds/lavendel.jpg";
 
 import PageContainer from "../components/PageContainer";
-// import Header from "../components/Header";
 import PopularSection from "../components/PopularSection";
+import Footer from "../components/Footer";
 
 const Main = () => {
   return (
     <PageContainer>
-      {/* <Header /> */}
       <section className="Home">
       <div className="Focus">
         <img 
@@ -34,7 +34,7 @@ const Main = () => {
           Embracing nature's goodness for a vibrant and healthier complexion.
         </p>
       </div>
-      <div className="Focus2">
+      <div className="Focus">
         <img 
         src={focus} 
         className="FocusImg" 
@@ -51,6 +51,16 @@ const Main = () => {
         From seed to serum, our products embody nature's purity for radiant, healthy skin.
         </p>
       </div>
+      <div className="Focus">
+        <img 
+          src={lavendel} 
+          className="FinalImage" 
+          alt="by Matthias Oberholzer on Unsplash" 
+          width="100%" 
+          height="auto"
+        />
+      </div>
+      <Footer />
     </PageContainer>
   )
 }

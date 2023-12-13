@@ -11,10 +11,12 @@
   overflow: hidden;
 }
 
-.Focus2{
-  width: 100%;
+.Focus:nth-child(3) {
   height: 25%;
-  overflow: hidden;
+}
+
+.Focus:nth-child(4) {
+  height: auto;
 }
 
 .WideMixImg {
