@@ -1,8 +1,21 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 import "./styling/HamburgerMenu.css"
 
 const HamburgerMenu = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+  
+  const handleToggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+  
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+    window.scrollTo(0,0);
+  };
+  
   return (
     // <nav className="navbar">
     <div className="NavContainer">
@@ -11,6 +24,8 @@ const HamburgerMenu = () => {
           type="checkbox" 
           name="" 
           id="" 
+          checked={menuOpen}
+          onChange={handleToggleMenu}
         />
         <div className="HamburgerLines">
           <span className="Line Line1"></span>
@@ -22,6 +37,7 @@ const HamburgerMenu = () => {
         <Link 
           to="/Shop" 
           className="NavLink"
+          onClick={handleLinkClick}
         >
           Shop
         </Link>
@@ -30,6 +46,7 @@ const HamburgerMenu = () => {
         <Link 
           to="/About" 
           className="NavLink"
+          onClick={handleLinkClick}
         >
           About
         </Link>
@@ -38,6 +55,7 @@ const HamburgerMenu = () => {
         <Link 
           to="/Blog" 
           className="NavLink"
+          onClick={handleLinkClick}
         >
           Blog
         </Link>
