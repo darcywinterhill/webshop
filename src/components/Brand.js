@@ -2,18 +2,18 @@ import { Link } from 'react-router-dom';
 
 import "./styling/Brand.css";
 
-var scrollToTopLink = document.getElementById("scrollToTopBtn")
+// var scrollToTopLink = document.getElementById("scrollToTopLink")
 
-var rootElement = document.documentElement
+// var rootElement = document.documentElement
 
-function scrollToTop() {
-  rootElement.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  })
-}
+// function scrollToTop() {
+//   rootElement.scrollTo({
+//     top: 0,
+//     behavior: "smooth"
+//   })
+// }
 
-scrollToTopLink.addEventListener("click", scrollToTop)
+// scrollToTopLink.addEventListener("click", scrollToTop);
 
 const Brand = () => {
   return (
