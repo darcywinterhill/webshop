@@ -1,9 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap'); */
-
 .PopularContainer {
   width: 100%;
   height: auto;
-  font-family: 'Ibarra Real Nova', serif;
   padding: 50px 0;
 }
 
@@ -11,13 +8,16 @@
   margin-bottom: 25px;
 }
 
-.SectionTitle h3 {
-  font-size: 30px;
+.SectionTitle p {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 25px;
+}
+
+.SectionTitle h2 {
   margin: 0;
 }
 
 .SectionTitle p {
-  font-size: 25px;
   font-style: italic;
   margin: 0;
 }

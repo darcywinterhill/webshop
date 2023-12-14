@@ -5,17 +5,43 @@ import "./styling/HamburgerMenu.css"
 const HamburgerMenu = () => {
   return (
     // <nav className="navbar">
-    <div className="container nav-container">
-        <input className="checkbox" type="checkbox" name="" id="" />
-        <div className="hamburger-lines">
-          <span className="line line1"></span>
-          <span className="line line2"></span>
-          <span className="line line3"></span>
+    <div className="NavContainer">
+        <input 
+          className="Checkbox" 
+          type="checkbox" 
+          name="" 
+          id="" 
+        />
+        <div className="HamburgerLines">
+          <span className="Line Line1"></span>
+          <span className="Line Line2"></span>
+          <span className="Line Line3"></span>
         </div>  
-      <div className="menu-items">
-        <li><Link to="/Shop" className="NavLink">Shop</Link></li>
-        <li><Link to="/About" className="NavLink">About</Link></li>
-        <li><Link to="/Blog" className="NavLink">Blog</Link></li>
+      <div className="MenuItems">
+        <li>
+        <Link 
+          to="/Shop" 
+          className="NavLink"
+        >
+          Shop
+        </Link>
+        </li>
+        <li>
+        <Link 
+          to="/About" 
+          className="NavLink"
+        >
+          About
+        </Link>
+        </li>
+        <li>
+        <Link 
+          to="/Blog" 
+          className="NavLink"
+        >
+          Blog
+        </Link>
+        </li>
       </div>
     </div>
   // </nav>

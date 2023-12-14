@@ -9,15 +9,14 @@
 .AboutTextContainer {
   text-align: left;
   padding: 0 80px;
+  margin-bottom: 60px;
 }
 
 .AboutTextContainer h3 {
-  font-family: 'Ibarra Real Nova', serif;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 .AboutTextContainer p {
-  font-family: 'Afacad', sans-serif;
   margin-bottom: 30px;
 }

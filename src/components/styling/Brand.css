@@ -1,16 +1,17 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap'); */
+.BrandContainer {
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  margin-left: -60px;
+  margin-right: -60px;
+}
 
 .HomeLink {
   text-decoration: none;
   z-index: 1;
-  width: 50%;
-}
-
-.BrandContainer {
-  position:absolute;
-  left: 0;
-  right: 0;
-  top: 0;
+  width: fit-content;
 }
 
 .BrandLogo {

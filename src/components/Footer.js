@@ -8,21 +8,23 @@ const Footer = () => {
   return (
     <footer>
       <div className="FooterLinkWrapper">
-        <p>
-          FAQ
-        </p>
-        <p>
-          Privacy Policy
-        </p>
-        <p>
-          Shipping & Returns
-        </p>
-        <p>
-          Contact
-        </p>
-        <p>
-          Return Policy
-        </p>
+        <ul>
+          <li>
+            FAQ
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+          <li>
+            Shipping & Returns
+          </li>
+          <li>
+            Contact
+          </li>
+          <li>
+            Return Policy
+          </li>
+        </ul>
 
         <div className="SocialWrapper">
           <img 

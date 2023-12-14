@@ -23,8 +23,12 @@ const PopularSection = () => {
   return (
     <section className="PopularContainer">
       <div className="SectionTitle">
-        <p>Super Heroes</p>
-        <h3>Shop our Bestsellers</h3>
+        <p>
+          Super Heroes
+        </p>
+        <h2>
+          Shop our Bestsellers
+        </h2>
       </div>
       <div className="PopProductList">
         {filtered.map(prodData)}

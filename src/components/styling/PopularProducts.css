@@ -1,26 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap'); */
-
-.PopProductWrapper {
+.ProductWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 15px;
 }
 
-.PopImage {
+.ProductImage {
   width: 250px;
   height: 250px;
 }
 
-.PopProductWrapper h4 {
-  font-family: 'Ibarra Real Nova', serif;
-  font-size: 20px;
+.ProductWrapper h4 {
   margin: 15px;
 }
 
-.PopProductWrapper p {
-  font-family: 'Afacad', sans-serif;
+.ProductWrapper p {
   margin: 15px;
 }
 

@@ -2,7 +2,6 @@ footer {
   width: 100%;
   background-color: black;
   padding: 50px 0;
-  margin-top: 50px;
 }
 
 .FooterLinkWrapper {
@@ -13,10 +12,16 @@ footer {
   margin: auto;
 }
 
-.FooterLinkWrapper p {
+.FooterLinkWrapper ul {
   font-family: 'Ibarra Real Nova', serif;
   color: white;
   font-size: 25px;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.FooterLinkWrapper li {
   margin: 10px 0;
 }
 

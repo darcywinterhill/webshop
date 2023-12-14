@@ -13,36 +13,36 @@ const Main = () => {
   return (
     <PageContainer>
       <section className="Home">
-      <div className="Focus">
-        <img 
-          src={smallMix} 
-          className="SmallMixImg" 
-          alt="By Katherine Hanlon on Unsplash" 
-          width="100%" 
-          height="auto"
-        />
-        <img 
-          src={wideMix} 
-          className="WideMixImg" 
-          alt="By Katherine Hanlon on Unsplash"
-          width="100%" 
-          height="auto"
-        />
-      </div>
-      <div className="FocusText">
-        <p>
-          Embracing nature's goodness for a vibrant and healthier complexion.
-        </p>
-      </div>
-      <div className="Focus">
-        <img 
-        src={focus} 
-        className="FocusImg" 
-        alt="By Chelsea shapouri on Unsplash" 
-        width="100%" 
-        height="auto"
-      /> 
-      </div>
+        <div className="Focus">
+          <img 
+            src={smallMix} 
+            className="SmallMixImg" 
+            alt="By Katherine Hanlon on Unsplash" 
+            width="100%" 
+            height="auto"
+          />
+          <img 
+            src={wideMix} 
+            className="WideMixImg" 
+            alt="By Katherine Hanlon on Unsplash"
+            width="100%" 
+            height="auto"
+          />
+        </div>
+        <div className="FocusText">
+          <p>
+            Embracing nature's goodness for a vibrant and healthier complexion.
+          </p>
+        </div>
+        <div className="Focus">
+          <img 
+            src={focus} 
+            className="FocusImg" 
+            alt="By Chelsea shapouri on Unsplash" 
+            width="100%" 
+            height="auto"
+          /> 
+        </div>
       </section>
       <PopularSection />
       <div className="FocusText">

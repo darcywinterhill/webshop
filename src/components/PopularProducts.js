@@ -2,11 +2,20 @@ import "./styling/PopularProducts.css";
 
 const PopularProducts = ({ name, about, image }) => {
   return (
-    <div className="PopProductWrapper">
-      <img src={image} className="PopImage" alt={name} />
-      <h4>{name}</h4>
-      <div className="Line"></div>
-      <p>{about}</p>
+    <div className="ProductWrapper">
+      <img 
+        src={image} 
+        className="ProductImage" 
+        alt={name} 
+      />
+      <h3>
+        {name}
+      </h3>
+      <div className="Line">
+      </div>
+      <p>
+        {about}
+      </p>
     </div>
   )
 }
