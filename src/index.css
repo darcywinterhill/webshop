@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Ibarra+Real+Nova&family=Oswald:wght@200&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -15,4 +17,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
 }

@@ -1,0 +1,23 @@
+.AboutHeaderImgContainer {
+  background-image: url("../../images/backgrounds/sunrise.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 60px;
+}
+
+.AboutTextContainer {
+  text-align: left;
+  padding: 0 80px;
+}
+
+.AboutTextContainer h3 {
+  font-family: 'Ibarra Real Nova', serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.AboutTextContainer p {
+  font-family: 'Afacad', sans-serif;
+  margin-bottom: 30px;
+}

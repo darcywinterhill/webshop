@@ -2,11 +2,11 @@ import "./styling/PopularSection.css";
 
 import products from "../data/Products.json";
 
-import PopularProducts from "../components/PopularProducts";
+import Products from "../components/Products";
 
-const popData = (values) => {
+const prodData = (values) => {
   return (
-    <PopularProducts
+    <Products
       key={values.name}
       name={values.name}
       about={values.about}
@@ -18,18 +18,16 @@ const popData = (values) => {
 
 var filtered = products.filter(a => a.sales === "bestseller");
 
-const PopularSection = ({ name, about, image }) => {
+const PopularSection = () => {
   
   return (
-    
     <section className="PopularContainer">
-      
       <div className="SectionTitle">
         <p>Super Heroes</p>
         <h3>Shop our Bestsellers</h3>
       </div>
       <div className="PopProductList">
-        {filtered.map(popData)}
+        {filtered.map(prodData)}
       </div>
     </section>
   )

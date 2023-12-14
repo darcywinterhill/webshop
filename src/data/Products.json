@@ -2,23 +2,27 @@
   "name": "Face Mask",
   "about": "Pure, revitalizing and nourishing",
   "image": "../../images/prod1.jpg",
+  "price": "750 kr",
   "sales": "bestseller"
 },
 {
   "name": "Hydrating Serum",
   "about": "Rejuvenating with organic radiance",
   "image": "../../images/prod2.jpg",
+  "price": "650 kr",
   "sales": "ordinary"
 },
 {
   "name": "Anti-aging Serum",
   "about": "Collagen boosting elixir",
   "image": "../../images/prod3.jpg",
+  "price": "650 kr",
   "sales": "bestseller"
 },
 {
   "name": "Lip Cream",
   "about": "Soothing and hydrating",
   "image": "../../images/prod4.jpg",
+  "price": "450 kr",
   "sales": "bestseller"
 }]

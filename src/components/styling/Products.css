@@ -1,0 +1,34 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap'); */
+
+.PopProductWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.PopImage {
+  width: 250px;
+  height: 250px;
+}
+
+.PopProductWrapper h4 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.PopProductWrapper p {
+  font-family: 'Afacad', sans-serif;
+  margin-bottom: 5px;
+}
+
+.PopProductWrapper p:nth-child(5) {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Line {
+  width: 100px;
+  border-bottom: 1px solid black;
+}

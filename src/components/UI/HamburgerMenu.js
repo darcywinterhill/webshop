@@ -15,7 +15,6 @@ const HamburgerMenu = () => {
       <div className="menu-items">
         <li><Link to="/Shop" className="NavLink">Shop</Link></li>
         <li><Link to="/About" className="NavLink">About</Link></li>
-        <li><Link to="/Press" className="NavLink">Press</Link></li>
         <li><Link to="/Blog" className="NavLink">Blog</Link></li>
       </div>
     </div>
