@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Main from "./pages/Main";
 import Shop from "./pages/Shop";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
           <Route 
             path="/about" 
             element={<About />}
+          />
+          <Route 
+            path="/blog" 
+            element={<Blog />}
           />
         </Routes>
       </div>

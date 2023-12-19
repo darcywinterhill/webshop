@@ -1,0 +1,12 @@
+.BlogHeaderImgContainer {
+  background-image: url("../../images/backgrounds/leaves.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 60px;
+}
+
+.BlogContainer {
+  padding: 0 60px;
+  margin-bottom: 60px;
+}

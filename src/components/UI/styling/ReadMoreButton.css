@@ -1,0 +1,14 @@
+.ReadMoreContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.ReadMoreContainer p {
+  font-size: 18px;
+}
+
+.Forward {
+  width: 16px;
+  height: 16px;
+}
