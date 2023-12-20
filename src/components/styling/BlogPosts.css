@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  /* -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 80%, transparent 100%); */
 }
 
 .BlogPostWrapper h4 {
@@ -27,4 +25,13 @@
 .BlogImage {
   width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .BlogPostWrapper {
+    width: 250px;
+  }
+  .BlogImage {
+    width: 250px;
+  }
 }

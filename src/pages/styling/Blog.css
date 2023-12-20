@@ -10,3 +10,12 @@
   padding: 0 60px;
   margin-bottom: 60px;
 }
+
+@media screen and (min-width: 768px) {
+  .BlogContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

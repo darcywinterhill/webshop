@@ -21,7 +21,10 @@ const prodData = (values) => {
 const Shop = () => {
   return (
     <PageContainer>
-      <div className="ShopHeaderImgContainer">
+      <div 
+        className="ShopHeaderImgContainer"
+        title="Photo by Anthony Tran on Unsplash"
+      >
       </div>
       <div className="PopProductList">
         {products.map(prodData)}

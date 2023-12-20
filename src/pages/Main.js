@@ -1,9 +1,10 @@
 import "./styling/Main.css";
 
 import smallMix from "../images/backgrounds/product-mix-small.jpg";
-import wideMix from "../images/backgrounds/product-mix-wide.jpg";
+import wideMix from "../images/backgrounds/product-mix.jpg";
 import focus from "../images/backgrounds/focus.jpg";
 import lavendel from "../images/backgrounds/lavendel.jpg";
+import wideLavendel from "../images/backgrounds/lavendel-wide.jpg";
 
 import PageContainer from "../components/PageContainer";
 import PopularSection from "../components/PopularSection";
@@ -57,6 +58,13 @@ const Main = () => {
           className="FinalImage" 
           alt="by Matthias Oberholzer on Unsplash" 
           width="100%" 
+          height="auto"
+        />
+        <img 
+          src={wideLavendel}
+          className="FinalImageWide"
+          alt="by Matthias Oberholzer on Unsplash"
+          width="100%"
           height="auto"
         />
       </div>

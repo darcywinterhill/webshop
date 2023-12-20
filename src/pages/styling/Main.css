@@ -43,12 +43,44 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1024px) {
+.FinalImageWide {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .SmallMixImg {
+    display: none;
+  }
+
   .WideMixImg {
     display: block;
   }
 
-  .SmallMixImg {
+  .Focus {
+    height: 50%;
+  }
+
+  .FocusText {
+    height: 10%;
+  }
+
+  .FocusText p {
+    margin: auto;
+  }
+
+  .Focus:nth-child(3) {
+    height: 40%;
+  }
+
+  .FinalImage {
     display: none;
   }
+
+  .FinalImageWide {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
 }

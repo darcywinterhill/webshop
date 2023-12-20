@@ -2,19 +2,26 @@
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .LinkContainer {
     display: flex;
     justify-content: space-between;
     width: 250px;
     margin-left: auto;
+    /* position: relative;
+    top: 20px; */
   }
 
   .NavLinkHorizontal {
-    font-family: 'Afacad', sans-serif;
-    color: white;
-    font-size: 12px;
     text-decoration: none;
+    height: fit-content;
+
+  }
+
+  .NavLinkHorizontal h2 {
+    font-family: 'Afacad', sans-serif;
+    font-size: 16px;
+    color: white;
     text-transform: uppercase;
   }
 

@@ -20,7 +20,14 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  .BrandContainer {
+    right: 0%;
+    left: 20px;
+    top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .HomeLink {
     width: fit-content;
     position: relative;

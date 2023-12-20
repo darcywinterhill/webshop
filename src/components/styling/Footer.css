@@ -36,3 +36,15 @@ footer {
   width: 28px;
   height: 28px;
 }
+
+@media screen and (min-width: 768px) {
+  .FooterLinkWrapper {
+    width: 90%;
+  }
+
+  .FooterLinkWrapper ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

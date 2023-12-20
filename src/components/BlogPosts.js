@@ -4,7 +4,6 @@ import ReadMoreButton from "../components/UI/ReadMoreButton";
 
 const BlogPosts = ({ title, date, intro, image, credit }) => {
   return (
-    <>
     <div className="BlogPostWrapper">
       <img 
         src={image} 
@@ -18,9 +17,8 @@ const BlogPosts = ({ title, date, intro, image, credit }) => {
       <p>
         {intro}
       </p>
+      <ReadMoreButton />
     </div>
-    <ReadMoreButton />
-    </>
   )
 }
 
