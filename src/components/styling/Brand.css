@@ -33,3 +33,9 @@
     position: relative;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .BrandContainer {
+    left: 270px;
+  }
+}

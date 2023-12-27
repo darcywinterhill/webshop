@@ -2,9 +2,12 @@ import "./styling/Main.css";
 
 import smallMix from "../images/backgrounds/product-mix-small.jpg";
 import wideMix from "../images/backgrounds/product-mix.jpg";
+import desktopMix from "../images/backgrounds/product-mix-desktop.jpg";
 import focus from "../images/backgrounds/focus.jpg";
+import focusDesktop from "../images/backgrounds/focus-desktop.jpg";
 import lavendel from "../images/backgrounds/lavendel.jpg";
 import wideLavendel from "../images/backgrounds/lavendel-wide.jpg";
+import desktopLavendel from "../images/backgrounds/lavendel-wide-desktop.jpg";
 
 import PageContainer from "../components/PageContainer";
 import PopularSection from "../components/PopularSection";
@@ -29,6 +32,13 @@ const Main = () => {
             width="100%" 
             height="auto"
           />
+          <img 
+            src={desktopMix} 
+            className="DesktopMixImg" 
+            alt="By Katherine Hanlon on Unsplash"
+            width="100%" 
+            height="auto"
+          />
         </div>
         <div className="FocusText">
           <p>
@@ -39,6 +49,13 @@ const Main = () => {
           <img 
             src={focus} 
             className="FocusImg" 
+            alt="By Chelsea shapouri on Unsplash" 
+            width="100%" 
+            height="auto"
+          /> 
+           <img 
+            src={focusDesktop} 
+            className="FocusImgDesktop" 
             alt="By Chelsea shapouri on Unsplash" 
             width="100%" 
             height="auto"
@@ -63,6 +80,13 @@ const Main = () => {
         <img 
           src={wideLavendel}
           className="FinalImageWide"
+          alt="by Matthias Oberholzer on Unsplash"
+          width="100%"
+          height="auto"
+        />
+        <img 
+          src={desktopLavendel}
+          className="FinalImageDesktop"
           alt="by Matthias Oberholzer on Unsplash"
           width="100%"
           height="auto"

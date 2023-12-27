@@ -42,9 +42,29 @@ footer {
     width: 90%;
   }
 
+}
+
+@media screen and (min-width: 1024px) {
   .FooterLinkWrapper ul {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+  }
+
+  .FooterLinkWrapper li {
+    margin-right: 35px;
+    font-size: 28px;
+  }
+
+  .FooterLinkWrapper li:hover {
+    cursor: pointer;
+  }
+
+  .Logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .Logo:hover {
+    cursor: pointer;
   }
 }

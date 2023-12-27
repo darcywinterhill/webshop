@@ -3,5 +3,32 @@
   background-size: cover;
   width: 100%;
   height: 30vh;
-  margin-bottom: 60px;
+}
+
+.ProductList {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .ProductList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ShopHeaderImgContainer {
+    background-image: url("../../images/backgrounds/orange-spa.jpg");
+    height: 60vh;
+  }
+
+  .ProductList {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+  }
 }

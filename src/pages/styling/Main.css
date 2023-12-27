@@ -1,23 +1,27 @@
 .Home {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Focus {
   width: 100%;
-  height: 50%;
+  height: 50vh;
   overflow: hidden;
 }
 
 .Focus:nth-child(3) {
-  height: 25%;
+  height: 30vh;
 }
 
 .Focus:nth-child(4) {
-  height: fit-content;
+  height: auto;
 }
 
 .WideMixImg {
+  display: none;
+}
+
+.DesktopMixImg {
   display: none;
 }
 
@@ -25,10 +29,14 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 25%;
+  height: 20vh;
   background-color: black;
   text-align: center;
   padding: 0 30px;
+}
+
+.FocusImgDesktop {
+  display: none;
 }
 
 .FocusText:nth-child(3) {
@@ -39,11 +47,15 @@
 .FocusText p {
   font-family: 'Ibarra Real Nova', serif;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   margin: 0;
 }
 
 .FinalImageWide {
+  display: none;
+}
+
+.FinalImageDesktop {
   display: none;
 }
 
@@ -57,11 +69,11 @@
   }
 
   .Focus {
-    height: 50%;
+    height: 50vh;
   }
 
   .FocusText {
-    height: 10%;
+    height: 10vh;
   }
 
   .FocusText p {
@@ -69,7 +81,7 @@
   }
 
   .Focus:nth-child(3) {
-    height: 40%;
+    height: 40vh;
   }
 
   .FinalImage {
@@ -82,5 +94,51 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .Home {
+    min-height: 100vh;
+  }
 
+  .WideMixImg {
+    display: none;
+  }
+
+  .DesktopMixImg {
+    display: block;
+  }
+
+  .Focus {
+    max-height: 80vh;
+    height: auto;
+  }
+
+  .FocusText {
+    min-height: 20vh;
+    height: 20vh;
+  }
+
+  .FocusText p {
+    font-size: 28px;
+  }
+
+  .FocusImg {
+    display: none;
+  }
+
+  .FocusImgDesktop {
+    display: block;
+    
+  }
+
+  .Focus:nth-child(3) {
+    height: auto;
+    max-height: 80vh;
+  }
+
+  .FinalImageWide {
+    display: none;
+  }
+
+  .FinalImageDesktop {
+    display: block;
+  }
 }

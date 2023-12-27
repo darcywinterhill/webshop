@@ -26,7 +26,7 @@ const Shop = () => {
         title="Photo by Anthony Tran on Unsplash"
       >
       </div>
-      <div className="PopProductList">
+      <div className="ProductList">
         {products.map(prodData)}
       </div>
       <Footer />
