@@ -2,11 +2,12 @@ import "./styling/PopularSection.css";
 
 import products from "../data/Products.json";
 
-import Products from "../components/Products";
+import PopularProducts from "../components/PopularProducts";
 
 const prodData = (values) => {
   return (
-    <Products
+    
+    <PopularProducts
       key={values.name}
       name={values.name}
       about={values.about}

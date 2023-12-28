@@ -1,6 +1,7 @@
 [{
   "name": "Face Mask",
   "about": "Pure, revitalizing and nourishing",
+  "description": "Indulge in a mask that transcends beauty, a pure symphony of revitalization and nourishment. Immerse your skin in a cocoon of botanical brilliance, as this mask unveils its transformative power. Packed with nature's bounty, it breathes life into tired skin, leaving behind a radiant glow. A sensorial journey awaits, where purity meets revival, and every application is a moment of sublime self-care. Reveal your inner radiance with a face mask that goes beyond the surface, bringing forth a renewed, luminous complexion.",
   "image": "../../images/prod1.jpg",
   "price": "750 kr",
   "sales": "bestseller"
@@ -8,6 +9,7 @@
 {
   "name": "Hydrating Serum",
   "about": "Rejuvenating with organic radiance",
+  "description": "Elevate your skincare ritual with our Rejuvenating Hydrating Serum, a luminous elixir enriched with organic radiance. This luxurious potion deeply hydrates, revitalizes, and replenishes, unveiling a vibrant complexion. Immerse your skin in a blend of carefully curated organic ingredients that awaken a youthful glow. As you apply, feel the silky texture infuse every pore with moisture, leaving you with a radiant, dew-kissed luminosity. Transform your daily routine into a luminous journey, where the power of nature and science converge to reveal your skin's timeless brilliance.",
   "image": "../../images/prod2.jpg",
   "price": "650 kr",
   "sales": "ordinary"
@@ -15,6 +17,7 @@
 {
   "name": "Anti-aging Serum",
   "about": "Collagen boosting elixir",
+  "description": "Experience the pinnacle of skincare with our Collagen-Boosting Elixir, a potent anti-aging serum that defies time. This transformative elixir harnesses the power to replenish and stimulate collagen, restoring elasticity and firmness to your skin. Immerse yourself in the luxurious blend of ingredients that work in harmony to diminish fine lines and wrinkles, unveiling a revitalized and youthful complexion. Elevate your skincare routine with this age-defying serum, where each drop is a promise of renewed radiance and a resilient, timeless beauty that stands against the test of time.",
   "image": "../../images/prod3.jpg",
   "price": "650 kr",
   "sales": "bestseller"
@@ -22,6 +25,7 @@
 {
   "name": "Lip Cream",
   "about": "Soothing and hydrating",
+  "description": "Indulge in the ultimate lip care with our Soothing Hydrating Lip Cream. Immerse your lips in a cocoon of tranquility as this luxurious formula effortlessly soothes and hydrates. Infused with nourishing ingredients, it restores moisture, leaving your lips supple and velvety soft. Experience the gentle caress of this cream, a daily ritual that revitalizes and pampers. Let dryness become a distant memory as your lips embrace the comfort and hydration they deserve. Unveil a luscious, revitalized pout with each application, where soothing care meets the joy of beautifully hydrated lips.",
   "image": "../../images/prod4.jpg",
   "price": "450 kr",
   "sales": "bestseller"

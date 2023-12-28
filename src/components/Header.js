@@ -6,7 +6,7 @@ import HamburgerMenu from "./UI/HamburgerMenu";
 import Brand from "./Brand";
 import NavBar from "./UI/NavBar";
 
-const Header = () => {
+const Header = ({ state }) => {
   return (
     <header>
       <HamburgerMenu />
@@ -17,6 +17,7 @@ const Header = () => {
         src={cart} 
         alt="cart icon" 
       />
+      {state}
     </header>
   )
 }

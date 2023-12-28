@@ -6,6 +6,7 @@ import './App.css';
 import Header from "./components/Header";
 import Main from "./pages/Main";
 import Shop from "./pages/Shop";
+import ProductPage from "./pages/ProductPage";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 
@@ -22,6 +23,10 @@ function App() {
           <Route 
             path="/shop" 
             element={<Shop />}
+          />
+          <Route
+            path="/shop/:name"
+            element={<ProductPage />}
           />
           <Route 
             path="/about" 
