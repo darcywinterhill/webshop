@@ -1,0 +1,42 @@
+.PageTitle {
+  margin: 110px 0 0 0;
+}
+
+.TitleLine {
+  border-top: 1px solid black;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.ContentContainer {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.ContentContainer h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.ContentContainer h4 {
+  font-size: 16px;
+  margin: 15px 0 5px 0;
+}
+
+.ContentContainer p {
+  margin: 0;
+}
+
+.Contact {
+  text-align: center;
+}
+
+.InputField {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+}

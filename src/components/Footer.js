@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import "./styling/Footer.css";
 
 import facebook from "../images/logos/fb-logo.png";
@@ -5,25 +7,31 @@ import instagram from "../images/logos/ig-logo.png";
 import youtube from "../images/logos/yt-logo.png";
 
 const Footer = () => {
+
   return (
     <footer>
       <div className="FooterLinkWrapper">
         <ul>
+          <Link to="/FAQ">
           <li>
             FAQ
           </li>
+          </Link>
+          <Link to="/privacy">
           <li>
             Privacy Policy
           </li>
+          </Link> 
+          <Link to="/shipping&returns">
           <li>
             Shipping & Returns
           </li>
+          </Link>
+          <Link to="/contact">
           <li>
             Contact
           </li>
-          <li>
-            Return Policy
-          </li>
+          </Link>
         </ul>
 
         <div className="SocialWrapper">

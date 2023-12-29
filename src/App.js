@@ -9,6 +9,7 @@ import Shop from "./pages/Shop";
 import ProductPage from "./pages/ProductPage";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import FooterPage from "./pages/FooterPage";
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
             path="/blog" 
             element={<Blog />}
           />
+        <Route 
+          path="/:page" 
+          element={<FooterPage />} 
+        />
         </Routes>
       </div>
     </Router>

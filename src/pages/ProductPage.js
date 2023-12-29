@@ -1,4 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import "./styling/ProductPage.css";
 
@@ -41,6 +43,18 @@ let productDetails = products.find((p) => p.name === name);
             {productDetails.price}
           </p>
           <BuyButton />
+          <ToastContainer 
+            position="top-center"
+            autoClose={3500}
+            hideProgressBar
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="colored"
+          />
           <p className="Description">
             {productDetails.description}
           </p>

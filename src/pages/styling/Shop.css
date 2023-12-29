@@ -16,7 +16,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 60px 40px;
+    padding: 60px 0;
+    width: 80%;
+    margin: auto;
   }
 }
 
