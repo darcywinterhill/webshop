@@ -2,12 +2,7 @@ import { Link } from 'react-router-dom';
 
 import "./styling/Brand.css";
 
-const scrollToTop =() => {
-  document.documentElement.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  })
-}
+import ScrollToTop from './UI/ScrollToTop';
 
 const Brand = () => {
   return (
@@ -16,7 +11,7 @@ const Brand = () => {
       to="/" 
       className="HomeLink" 
       id="scrollToTopLink"
-      onClick={scrollToTop}
+      onClick={ScrollToTop}
     >
       <h1 className="BrandLogo">
         this brand.

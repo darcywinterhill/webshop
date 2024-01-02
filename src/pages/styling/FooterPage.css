@@ -11,10 +11,10 @@
 }
 
 .ContentContainer {
-  width: 80%;
-  margin: auto;
   text-align: left;
-  margin-bottom: 60px;
+  width: 80%;
+  padding-bottom: 60px;
+  margin: auto;
 }
 
 .ContentContainer h3 {
@@ -27,16 +27,87 @@
   margin: 15px 0 5px 0;
 }
 
-.ContentContainer p {
+.FooterContent {
   margin: 0;
+}
+
+.ContactContainer {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.InputWrapper, .InputWrapperMessage {
+  text-align: left;
 }
 
 .Contact {
   text-align: center;
+  margin: 25px 0;
 }
 
 .InputField {
   width: 100%;
   height: 30px;
   margin-bottom: 15px;
+  font-family: 'Afacad', sans-serif;
+}
+
+.InputTextArea {
+  height: 70px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Afacad', sans-serif;
+}
+
+.Asterisk {
+  color: red;
+}
+
+.SubmitButton {
+  background-color: #000;
+  color: white;
+  font-family: 'Afacad', sans-serif;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .PageTitle {
+    margin: 160px 0 0 0;
+  }
+
+  .UserInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .Contact:first-child {
+    margin-top: 90px;
+  }
+
+  form {
+    margin-top: 100px;
+  }
+  
+  .InputWrapper{
+    width: 49%;
+  }
+
+  .InputWrapperMessage {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ContactContainer{
+    width: 40%;
+    padding-bottom: 200px;
+  }
 }

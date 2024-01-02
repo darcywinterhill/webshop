@@ -6,28 +6,42 @@ import facebook from "../images/logos/fb-logo.png";
 import instagram from "../images/logos/ig-logo.png";
 import youtube from "../images/logos/yt-logo.png";
 
+import ScrollToTop from './UI/ScrollToTop';
+
 const Footer = () => {
 
   return (
     <footer>
       <div className="FooterLinkWrapper">
         <ul>
-          <Link to="/FAQ">
+          <Link 
+            to="/FAQ"
+            onClick={ScrollToTop}
+          >
           <li>
             FAQ
           </li>
           </Link>
-          <Link to="/privacy">
+          <Link 
+            to="/privacy"
+            onClick={ScrollToTop}
+          >
           <li>
             Privacy Policy
           </li>
           </Link> 
-          <Link to="/shipping&returns">
+          <Link 
+            to="/shipping&returns"
+            onClick={ScrollToTop}
+          >
           <li>
             Shipping & Returns
           </li>
           </Link>
-          <Link to="/contact">
+          <Link 
+            to="/contact"
+            onClick={ScrollToTop}
+          >
           <li>
             Contact
           </li>
