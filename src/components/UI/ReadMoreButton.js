@@ -1,10 +1,19 @@
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import "./styling/ReadMoreButton.css";
 
 import forward from "../../images/forward.png";
 
 const ReadMoreButton = () => {
+
+  const blogMessage = () => toast.success("Soon you will enter the blog post when clicking here!");
+
   return (
-    <div className="ReadMoreContainer">
+    <div 
+      className="ReadMoreContainer"  
+      onClick={blogMessage}
+    >
       <p>
         Read More &nbsp;
       </p>

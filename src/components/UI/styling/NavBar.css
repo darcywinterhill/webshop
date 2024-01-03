@@ -6,16 +6,13 @@
   .LinkContainer {
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 180px;
     margin-left: auto;
-    /* position: relative;
-    top: 20px; */
   }
 
   .NavLinkHorizontal {
     text-decoration: none;
     height: fit-content;
-
   }
 
   .NavLinkHorizontal h2 {

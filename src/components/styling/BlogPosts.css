@@ -29,19 +29,13 @@
 
 @media screen and (min-width: 768px) {
   .BlogPostWrapper {
-    width: 250px;
+    width: 300px;
   }
   .BlogImage {
-    width: 250px;
+    width: 300px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .BlogPostWrapper {
-    width: 400px;
-  }
 
-  .BlogImage {
-    width: 400px;
-  }
 }

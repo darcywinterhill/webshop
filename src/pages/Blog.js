@@ -1,3 +1,6 @@
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import "./styling/Blog.css";
 
 import posts from "../data/Blog.json";
@@ -29,6 +32,18 @@ const Blog = () => {
       <div className="BlogContainer">
         {posts.map(blogData)}
       </div>
+      <ToastContainer 
+        position="top-center"
+        autoClose={3500}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
       <Footer />
     </PageContainer>
   )
