@@ -6,6 +6,7 @@ A webshop mockup w/ inspiration from other sites. Built during System Developer 
 - Mockup webshop for a brand that sells eco skin care.
 - Design inspiration from other sites.
 - All text content generated with ChatGPT.
+- Toastify to alert when adding products or submitting form.
 
 ### Pages/content
 - Main page w/ bestselling products
